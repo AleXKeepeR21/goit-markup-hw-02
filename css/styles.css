@@ -8,9 +8,14 @@
 	--white-txt-color: #ffffff;
 	--grey-txt-color: #757575;
 	--black-txt-color-main: #212121;
+    --black-txt-color-logo: #000000;
 
 	/* bg-colors */
-	--dark-bg-color: ;
+	--dark-bg-color: #2f303a;
+    --light-bg-color: #F5F4FA;
+    --accent-bg-color: #2196f3;
+    --second-btn-bg-color: #188ce8;
+   
 
 	/* others */
 }
@@ -39,20 +44,22 @@ body {
 	line-height: 1.19;
 	color: var(--accent-txt-color);
 	text-decoration: none;
-	text-align: right;
-}
+	}
+
+
 
 .logo-color-header {
 	font-family: "Raleway";
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	color: #000000;
+	color: var(--black-txt-color-logo);
+    
 }
 
 /* Header-nav */
 .header-nav {
-	color: #212121;
+	color: var(--black-txt-color-main);
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -79,7 +86,7 @@ body {
 
 /* Герой */
 .hero {
-	background-color: #2f303a;
+	background-color: var(--dark-bg-color)
 }
 
 .hero-title {
@@ -97,7 +104,7 @@ body {
 	height: 50px;
 	left: 700px;
 	top: 430px;
-	background-color: #2196f3;
+	background-color: var(--accent-bg-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	font-weight: 700;
@@ -114,7 +121,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-	background-color: #188ce8;
+	background-color: var(--second-btn-bg-color);
 	color: var(--white-txt-color);
 }
 
@@ -143,7 +150,7 @@ body {
 /* Наша команда */
 
 .people {
-    background-color: #F5F4FA;
+    background-color: var(--light-bg-color);
 }
 .people-title {
 	font-weight: 700;
@@ -172,14 +179,14 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--black-txt-color-main);
-	background-color: #f5f4fa;
+	background-color: var(--light-bg-color);
 	cursor: pointer;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
 	color: var(--white-txt-color);
-	background-color: #2196f3;
+	background-color: var(--accent-txt-color);
 }
 
 .portfolio-work-link {
@@ -200,7 +207,7 @@ body {
 /* Футер */
 
 .footer {
-	background-color: #2f303a;
+	background-color: var(--dark-bg-color);
 }
 
 .footer-link {
@@ -209,6 +216,7 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--white-txt-color);
+    font-style: normal;
 }
 
 .logo-color-footer {
@@ -216,7 +224,7 @@ body {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	color: #ffffff;
+	color: var(--white-txt-color);
 }
 
 .footer-auth {
@@ -225,4 +233,14 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+background-color: var(--accent-bg-color);
+}
+.footer-auth:hover,
+.footer-auth:focus {
+background-color: var(--accent-bg-color);
 }
