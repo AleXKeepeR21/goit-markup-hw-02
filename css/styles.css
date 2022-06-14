@@ -8,14 +8,13 @@
 	--white-txt-color: #ffffff;
 	--grey-txt-color: #757575;
 	--black-txt-color-main: #212121;
-    --black-txt-color-logo: #000000;
+	--black-txt-color-logo: #000000;
 
 	/* bg-colors */
 	--dark-bg-color: #2f303a;
-    --light-bg-color: #F5F4FA;
-    --accent-bg-color: #2196f3;
-    --second-btn-bg-color: #188ce8;
-   
+	--light-bg-color: #f5f4fa;
+	--accent-bg-color: #2196f3;
+	--second-btn-bg-color: #188ce8;
 
 	/* others */
 }
@@ -44,9 +43,7 @@ body {
 	line-height: 1.19;
 	color: var(--accent-txt-color);
 	text-decoration: none;
-	}
-
-
+}
 
 .logo-color-header {
 	font-family: "Raleway";
@@ -54,7 +51,6 @@ body {
 	font-size: 26px;
 	line-height: 1.19;
 	color: var(--black-txt-color-logo);
-    
 }
 
 /* Header-nav */
@@ -86,7 +82,7 @@ body {
 
 /* Герой */
 .hero {
-	background-color: var(--dark-bg-color)
+	background-color: var(--dark-bg-color);
 }
 
 .hero-title {
@@ -150,7 +146,7 @@ body {
 /* Наша команда */
 
 .people {
-    background-color: var(--light-bg-color);
+	background-color: var(--light-bg-color);
 }
 .people-title {
 	font-weight: 700;
@@ -216,7 +212,7 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--white-txt-color);
-    font-style: normal;
+	font-style: normal;
 }
 
 .logo-color-footer {
@@ -233,14 +229,14 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
-    font-style: normal;
+	font-style: normal;
 }
 
 .footer-link:hover,
 .footer-link:focus {
-background-color: var(--accent-bg-color);
+	color: var(--accent-txt-color);
 }
 .footer-auth:hover,
 .footer-auth:focus {
-background-color: var(--accent-bg-color);
+	color: var(--accent-txt-color);
 }
